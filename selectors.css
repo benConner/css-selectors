@@ -1,0 +1,20 @@
+header{
+		border: 1px dotted green;
+}
+
+nav {
+	display: flex;
+	list-style: none;
+}
+nav li {
+	padding-left: 6px;
+}
+.disabled{
+	color:grey; 
+}
+a.disabled{
+	color: purple;
+}
+.active{
+	color: yellow;
+}
