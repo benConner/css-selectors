@@ -30,3 +30,14 @@ a.disabled{
 .parent div:nth-child(2n+3)~h4 {
 	background-color: blue;
 }
+.grandparent>h4{
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.promo{
+	font-weight: bold;
+	color: gold;
+}
+footer  span input[type^=text]{
+	height: 25px;
+}
